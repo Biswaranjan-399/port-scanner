@@ -33,3 +33,46 @@ The script uses `socket.connect_ex()` which returns an error indicator rather th
 # Returns 0 if the connection is successful (Port is OPEN)
 result = s.connect_ex((target, port))
 ```
+
+## 💻 How to Run
+
+1.  **Clone the Repository:**
+
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    cd your-repo-name
+    ```
+
+2.  **Run the Scanner:**
+    No external libraries are required. Just run with Python:
+
+    ```bash
+    python scanner.py
+    ```
+
+3.  **Expected Output:**
+    ```text
+    --------------------------------------------------
+    Scanning Target: scanme.nmap.org
+    Time started: 2025-12-01 10:45:00.123456
+    --------------------------------------------------
+    Port 22 is OPEN
+    Port 80 is OPEN
+    --------------------------------------------------
+    Scan completed.
+    ```
+
+---
+
+## ⚠️ Ethical Disclaimer
+
+This tool is created for **educational purposes** to understand how network requests work.
+
+- The default target `scanme.nmap.org` is permitted for scanning.
+- **Do not** modify this script to scan targets (IPs or websites) that you do not own or do not have explicit permission to audit. Unauthorized port scanning is illegal in many jurisdictions.
+
+---
+
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).
