@@ -38,11 +38,6 @@ result = s.connect_ex((target, port))
 
 1.  **Clone the Repository:**
 
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
-    ```
-
 2.  **Run the Scanner:**
     No external libraries are required. Just run with Python:
 
